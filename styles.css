@@ -1,0 +1,33 @@
+body {
+  background-color: #e63946;
+}
+
+.flexContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pokemonBox {
+  display: flex;
+  flex-direction: column;
+  background-color: #a8dadc;
+  border: 1px solid #1d3557;
+  border-radius: 10%;
+  align-items: center;
+  margin: 5px;
+
+}
+.pokemonBox p {
+  text-transform: capitalize;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 400;
+  color: #1d3557;
+}
+
+h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: xx-large;
+  text-align: center;
+  color: #1d3557;
+}
